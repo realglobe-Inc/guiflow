@@ -35,6 +35,6 @@
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.5",
     "gulp-zip": "^4.1.0",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^2.2.1"
   }
 }
