@@ -23,7 +23,7 @@ gulp.task("package:win32", function(done) {
         icon: "icon/guiflow.ico",
         ignore: "/package($|/)",
         asar: true,
-    }, function(err) {
+    }).catch(function(err) {
         if (err) {
             console.error(err);
         }
@@ -42,7 +42,7 @@ gulp.task("package:linux", function(done) {
         electronVersion: electronVersion,
         ignore: "/package($|/)",
         asar: true,
-    }, function(err) {
+    }).catch(function(err) {
         done();
     });
 });
@@ -79,7 +79,7 @@ gulp.task("package:darwin", function(done) {
         ignore: "/package($|/)",
         icon: "icon/gui_flow_icon.icons",
         asar: true,
-    }, function(err) {
+    }).catch(function(err) {
         done();
     });
 });
