@@ -24,7 +24,7 @@ var nodeModule = function() {
 
 };
 var ipcRenderer = require("electron").ipcRenderer;
-var remote = require("remote");
+var remote = require("electron").remote;
 var fs = require("fs");
 var flumine = require("flumine");
 var $ = require(resolvePath("./js/jquery-2.1.4.min"));
@@ -50,10 +50,10 @@ var sendToEditor = function(channel) {
     return editor[channel];
 };
 
-var clipboard = require("clipboard");
-var nativeImage = require("native-image");
+var clipboard = require("electron").clipboard;
+var nativeImage = require("electron").nativeImage;
 
-var Menu = remote.require('menu');
+var Menu = remote.Menu;
 var menu = Menu.buildFromTemplate([{
     label: "Undo",
     accelerator: 'CmdOrCtrl+Z',

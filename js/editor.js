@@ -3,7 +3,7 @@ var fs = require("fs");
 var EventEmitter = require('events');
 var flumine = require("flumine");
 var dialog = require('electron').remote.dialog;
-var clipboard = require("clipboard");
+var clipboard = require("electron").clipboard;
 require('ace-min-noconflict');
 require('ace-min-noconflict/theme-monokai');
 
