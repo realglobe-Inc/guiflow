@@ -6,9 +6,7 @@ var packager = require("electron-packager");
 var electronVersion = "0.36.12";
 var del = require('del');
 gulp.task('clean', function(done) {
-    return del(['package'], function() {
-        done();
-    });
+    return del(['package']);
 });
 
 gulp.task("package:win32", function(done) {
