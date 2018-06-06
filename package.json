@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/hirokidaichi/guiflow",
   "dependencies": {
-    "dialogs": "^1.1.12",
+    "dialogs": "^1.1.20",
     "electron-debug": "^0.5.2",
     "electron-windows-installer": "^1.2.5",
     "flumine": "^0.1.8",
-    "sprintf": "^0.1.5",
+    "sprintf-js": "^1.1.1",
     "through2": "^2.0.1",
     "uiflow": "^1.1.1"
   },

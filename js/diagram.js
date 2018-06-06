@@ -1,6 +1,6 @@
 var $ = require("./jquery-2.1.4.min");
 var EventEmitter = require("events");
-var sprintf = require("sprintf");
+var sprintf = require("sprintf-js").sprintf;
 var emitter = new EventEmitter();
 var CURRENT_DOC;
 var svgElement = function() {
