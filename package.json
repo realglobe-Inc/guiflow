@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hirokidaichi/guiflow",
   "dependencies": {
+    "ace-min-noconflict": "^1.1.9",
     "dialogs": "^1.1.20",
     "electron-debug": "^2.0.0",
     "electron-windows-installer": "^1.2.5",
@@ -28,7 +29,6 @@
     "uiflow": "^1.1.1"
   },
   "devDependencies": {
-    "ace-min-noconflict": "^1.1.9",
     "del": "^3.0.0",
     "electron": "^2.0.2",
     "electron-packager": "^12.1.0",
