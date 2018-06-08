@@ -3,7 +3,7 @@ var zip = require("gulp-zip");
 var runseq = require("run-sequence");
 var packager = require("electron-packager");
 
-var electronVersion = "0.36.12";
+var electronVersion = "2.0.2";
 var del = require('del');
 gulp.task('clean', function(done) {
     return del(['package']);
